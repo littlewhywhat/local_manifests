@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="arpi" fetch="https://github.com/android-rpi"/>
+  <remote name="lttlwhwht" fetch="https://github.com/littlewhywhat"/>
 
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="nougat" remote="arpi"/>
@@ -10,6 +11,7 @@
   <project path="kernel/rpi" name="kernel_rpi" revision="nougat" remote="arpi"/>
   <project path="hardware/rpi" name="hardware_rpi" revision="nougat" remote="arpi"/>
   <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="nougat" remote="arpi"/>
+  <project path="frameworks/native/cmds/greeter" name="android-rpi-greeter" revision="master" remote="lttlwhwht"/>
 
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin-kernel" />
