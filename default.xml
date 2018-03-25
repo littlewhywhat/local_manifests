@@ -11,7 +11,7 @@
   <project path="kernel/rpi" name="kernel_rpi" revision="nougat" remote="arpi"/>
   <project path="hardware/rpi" name="hardware_rpi" revision="nougat" remote="arpi"/>
   <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="nougat" remote="arpi"/>
-  <project path="frameworks/native/cmds/greeter" name="android-rpi-greeter" revision="master" remote="lttlwhwht"/>
+  <project path="frameworks/native/cmds/extrace" name="extrace" revision="master" remote="lttlwhwht"/>
 
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin-kernel" />
